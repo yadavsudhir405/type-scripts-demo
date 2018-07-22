@@ -1,15 +1,17 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "module": "umd",
+    "outDir": "./dist",
+    "module": "es6",
     "target": "es5",
     "sourceMap": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "declaration": true
   },
   "exclude": [
-    "source",
     "node_modules",
     "bower_components",
     "dist"
