@@ -2,10 +2,10 @@
 // console.log(Object.isSealed(SealedClass));
 
 
-/*import {People} from "./people";
+import {People} from "./people";
 
-const d = new People("Foo");
-console.log(d);*/
+const d1 = new People("Foo");
+console.log(d1);
 
 import {Employee} from "./employee";
 
