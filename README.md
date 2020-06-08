@@ -11,3 +11,4 @@ This is simple typescript project setup with mocha test
 # Run via command line
 1) Go to working directory
 2) Run `npx tsc-node <<path_to_file>>`
+![webstorm](https://github.com/yadavsudhir405/type-scripts-demo/blob/master/command-line.png?raw=true)
