@@ -5,6 +5,7 @@
       "options": [120]
     },
     "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
     "new-parens": true,
     "no-arg": true,
     "no-bitwise": true,
