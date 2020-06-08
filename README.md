@@ -6,3 +6,7 @@ This is simple typescript project setup with mocha test
 2) Specify working directory
 3) Specify file to run
 4) Specify -r `ts-node/register` as node parameters 
+
+# Run via command line
+1) Go to working directory
+2) Run `npx tsc-node <<path_to_file>>`
