@@ -1,4 +1,4 @@
- class Car {
+ export class Car {
     public engine: string;
 
     constructor(engine: string) {
@@ -6,15 +6,10 @@
     }
 
     public start() {
-        alert("Engine started " + this.engine);
+        console.log("Engine started " + this.engine);
     }
 
     public stop() {
-        alert("Engine stopped " + this.engine);
+        console.log("Engine stopped " + this.engine);
     }
  }
-
- window.onload =  () => {
-     const car = new Car("V8");
-     car.start();
- };
